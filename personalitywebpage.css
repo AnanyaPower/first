@@ -157,5 +157,5 @@ body {
 }
 
 .craft:hover .craft-middle {
-  opacity: 1;
+  opacity: 0.9;
 }
