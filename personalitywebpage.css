@@ -1,0 +1,162 @@
+/* size of desktops in class width:1280 height: 1024 */
+body {
+  background-color: #ADD8E6;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-text {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 42px 20px;
+  font-size: 42px;
+  font-family: 'Niconne', cursive;
+}
+
+.books {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.books:hover {
+  opacity: 0.3;
+}
+
+.books-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.books-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.books:hover .books-middle {
+  opacity: 1;
+}
+
+.boardgames {
+  position: absolute;
+  top: 100px;
+  right: 300px;
+}
+
+.boardgames:hover {
+  opacity: 0.3;
+}
+
+.boardgames-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.boardgames-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.boardgames:hover .boardgames-middle {
+  opacity: 1;
+}
+
+.pingpong {
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+}
+.pingpong:hover {
+  opacity: 0.3;
+}
+
+.pingpong-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pingpong-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.pingpong:hover .pingpong-middle {
+  opacity: 1;
+}
+
+.craft {
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+}
+
+.craft:hover {
+  opacity: 0.3;
+}
+
+.craft-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.craft-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.craft:hover .craft-middle {
+  opacity: 1;
+}
